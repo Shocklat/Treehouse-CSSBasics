@@ -16,6 +16,11 @@ body {
 	font-size: 26px;
 }
 
+.primary-content, 
+.secondary-content {
+	width: 60%;
+}
+
 h1 {
 	font-size: 90px;
 	color: white;

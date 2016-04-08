@@ -5,6 +5,7 @@
 body {
 	color: #878787;
 	margin: 0;
+	font-size: 1em;
 }
 
 .main-header {
@@ -13,7 +14,7 @@ body {
 
 .title {
 	color: white;
-	font-size: 26px;
+	font-size: 1.625em; /* 26px / 16px */
 }
 
 .primary-content, 

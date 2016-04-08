@@ -5,7 +5,7 @@
 body {
 	color: #878787;
 	margin: 0;
-	font-size: 1em;
+	font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .main-header {
@@ -24,7 +24,10 @@ body {
 
 h1 {
 	font-size: 5.625rem; /* 90px / 16px */
-	color: rgba(255, 255, 255, .5);
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 1.3
 }
 
 h2 {
@@ -36,7 +39,8 @@ h3{
 	color: #48525c;
 }
 
-.primary-content {
+.primary-content, 
+.main-header {
 	text-align: center;
 }
 
@@ -46,6 +50,7 @@ h3{
 
 a:link {
 	color: rgb(255, 169, 73);
+	text-decoration: none;
 }
 
 a:visited {

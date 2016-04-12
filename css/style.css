@@ -34,7 +34,7 @@ h3 {
 
 img {
   max-width: 100%;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 /* Pseudo-classes ------------------ */
@@ -59,12 +59,10 @@ a:active {
 /* Main Styles --------------------- */
 
 .main-header {
-  
   padding-top: 170px;
   height: 850px;
-  
 
-  background: #ffa949 url('../img/mountains.jpg') no-repeat center; 
+  background: #ffa949 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -99,7 +97,7 @@ a:active {
   font-size: 1.25em;
   border-bottom: 3px solid;
   padding: 0 9px 3px;
-  margin: 20px 0;
+  margin-top: 20px;
   display: inline-block;
 }
 
@@ -118,19 +116,38 @@ a:active {
 .primary-content, 
 .secondary-content {
   width: 75%;
-  padding: 0 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: auto;
-  max-width: 900px;
+  max-width: 960px;
 }
 
 .wildlife {
   color: white;
-  background-color: #434a52;
+  text-align: left;
   padding: 18% 24%;
   border-top: 10px solid #ffa949;
   margin: 105px 0 60px;
+  background: #434a52 url('../img/bear.jpg') no-repeat center;
+  background-size: cover;
 }
 
 .arrow {
   width: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }

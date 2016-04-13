@@ -72,9 +72,10 @@ a:active {
 .main-header {
   padding-top: 170px;
   height: 850px;
-
   background: #ffa949 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
+
+  background-image: radial-gradient(#ffa949, firebrick, dodgerblue);
 }
 
 .title {
